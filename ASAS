@@ -3,7 +3,7 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
-local HttpService = game:GetService("HttpService")
+local HttpService = game:GetService("HttpService") 
 
 local OrionLib = {
 	Elements = {},
@@ -12,10 +12,10 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(35, 35, 35),
-			Second = Color3.fromRGB(50, 50, 50),
-			Stroke = Color3.fromRGB(75, 75, 75),
-			Divider = Color3.fromRGB(100, 100, 100),
+			Main = Color3.fromRGB(25, 25, 35),
+			Second = Color3.fromRGB(32, 32, 42),
+			Stroke = Color3.fromRGB(37, 37, 47),
+			Divider = Color3.fromRGB(60, 60, 70),
 			Text = Color3.fromRGB(240, 240, 240),
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
